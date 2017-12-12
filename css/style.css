@@ -1,34 +1,42 @@
+/* The body elements will refer to everything in my webpage so far */
 body {
   font-size: 14px;
 }
 
+/* nav bar will be yellow and detached from list below */
 nav {
   background-color: yellow;
   height: 100px;
   margin-top: -10px;
-  position: fixed;
   width: 100%;
 }
 
+/* This "section" area will be for the div elements */
 section {
   margin: 0 auto;
   width: 60%;
 }
 
+/* This is my big heading- typically used once per page and
+for the "big stuff" */
 h1 {
   font-family: sans-serif;
   font-size: 2em;
 }
 
+/* Here I have CSS grouping elements so that they all have the same properties -
+it's pretty simple! */
 example, h3 {
   padding-top: 30px;
   text-align: center;
 }
 
+/* Only the div elements will have H3 headings */
 h3 {
   font-size: 1.3em;
 }
 
+/* First few div elements will follow this class */
 .element {
   background-color: green;
   height: 100px;
@@ -36,6 +44,8 @@ h3 {
   width: 100%;
 }
 
+/* These last few elements will be the same but I have written an
+override CSS so that their backgrounds are different color */
 .lastfew {
   background-color: red;
 }
